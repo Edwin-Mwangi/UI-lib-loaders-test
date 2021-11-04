@@ -1,4 +1,7 @@
-import './styles.css';
+import { Tooltip } from "./ninja-ui/tooltip";
 
-console.log('hello world');
+//create a tooltip
 
+const tooltip = new Tooltip(document.querySelector('.tooltip'));
+
+tooltip.init();//"I am a tooltip is now output to the DOM"
